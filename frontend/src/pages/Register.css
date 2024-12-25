@@ -1,0 +1,82 @@
+/* Register.css */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1f36; /* Darker background for professionalism */
+}
+
+.register-card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white; /* White background for the card */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+  padding: 20px; /* Added padding for content spacing */
+}
+
+/* Header inside the register card */
+.register-card h2 {
+  text-align: center;
+  color: #2c3e50; /* Dark text for contrast */
+  margin: 20px 0; /* Margin adjusted for better spacing */
+  font-size: 24px; /* Increased font size for prominence */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #1890ff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #007bff, #0056b3); /* Gradient background */
+  color: white;
+  border: none;
+  border-radius: 30px; /* More rounded for a softer look */
+  font-size: 16px;
+  font-weight: bold; /* Bold text for emphasis */
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Stronger shadow for depth */
+}
+
+.register-button:hover {
+  background: linear-gradient(90deg, #0056b3, #003d80); /* Darker gradient on hover */
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5); /* Enhanced shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Footer styles */
+.register-footer {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.login-link {
+  color: #1890ff; /* Primary color */
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: #40a9ff; /* Lighter blue for hover effect */
+}

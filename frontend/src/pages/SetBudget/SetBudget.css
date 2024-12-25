@@ -1,0 +1,87 @@
+/* Container for the budget setting form */
+
+
+.set-budget-container {
+  background-color: #ffffff; /* White background for a clean look */
+  padding: 40px 30px; /* Larger padding for more space */
+  border-radius: 10px; /* Rounded corners for a softer appearance */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for a more prominent feel */
+  width: 100%;
+  max-width: 500px; /* Increased max-width for a larger container */
+  margin: 40px auto; /* Adjusted margins for spacing around the form */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+
+}
+
+/* Title of the set budget form */
+.set-budget-container h3 {
+  color: #2c3e50; /* Dark blue for a professional look */
+  text-align: center;
+  font-size: 2rem; /* Larger title for better emphasis */
+  margin-bottom: 30px; /* More space below the title */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Flexbox container for the input and button */
+.budget-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px; /* More space between input and button */
+}
+
+/* Styles for the input field */
+.budget-input {
+  padding: 15px 20px;
+  font-size: 15px; /* Larger font size for the input */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 70%; /* Adjusted width */
+  outline: none;
+  transition: border-color 0.3s ease; /* Smooth focus effect */
+  box-sizing: border-box;
+}
+
+/* Add a light border color when input is focused */
+.budget-input:focus {
+  border-color: #3498db; /* Consistent blue for focus */
+}
+
+/* Styles for the button */
+.set-budget-btn {
+  background-color:#1a1f36; /* Teal for consistency */
+  color: #ffffff;
+  border: 2px solid white; /* Added border for definition */
+  width: 130px;
+  height: 52px; /* Reduced width for better compatibility */
+  padding: 10px 15px; /* Adjusted padding for a more compact button */
+  font-size: 13px; /* Slightly smaller font for balance */
+  font-weight: 600; /* Bold text */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s; /* Button hover and press effects */
+  box-sizing: border-box;
+}
+
+/* Button hover effect */
+.set-budget-btn:hover {
+  background-color: #020727; /* Darker teal on hover */
+  transform: translateY(-2px); /* Slight hover lift effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Button active state for press effect */
+.set-budget-btn:active {
+  transform: translateY(0); /* Button returns to original state */
+}
+
+/* Error message styling */
+.error-text {
+  color: #d9534f; /* Consistent error color */
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,157 @@
+/* Main container */
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* Cards container */
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Individual card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+/* Card header styling */
+.catd-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Card body styling */
+.card-body {
+    margin-bottom: 10px;
+}
+
+.card-body h5 {
+    margin: 5px 0;
+}
+
+/* Progress items styling */
+.progress-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Card for Income vs Expense Trend */
+.trend-card {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.trend-section {
+    margin-top: 20px;
+}
+
+.trend-section h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Card for Category-wise Distribution */
+.category-card {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.category-card h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.category-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category-income, .category-expense {
+    width: 48%;
+}
+
+.category-income h5, .category-expense h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Top 3 Categories */
+.top-category {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* Card for top category section */
+.top-category-card {
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header for the top category card */
+.catd-header1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: green;
+}
+.catd-header2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Style for the list inside the top categories */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}

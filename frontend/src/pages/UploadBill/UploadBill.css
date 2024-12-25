@@ -1,0 +1,110 @@
+/* Container */
+.upload-bill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f4f6f9; /* Light gray for a soft background */
+  padding: 20px;
+}
+
+/* Upload Section */
+.upload-section {
+  text-align: center;
+  background-color: #ffffff; /* Clean white background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Page Heading */
+.upload-page-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50; /* Dark blue for a professional look */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Section Title */
+.upload-title {
+  font-size: 0px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #020727; /* Slightly lighter blue for contrast */
+  visibility: hidden;
+}
+
+/* Upload Button Styling */
+.upload-button .ant-btn {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #1a1f36; /* Teal for better combination with green */
+  color: white;
+  font-weight: 600;
+  border-radius: 10px; /* More rounded corners */
+  padding: 16px; /* Increased padding for a larger touch area */
+  font-size: 18px; /* Larger font size for better readability */
+  height: auto; /* Allow height to adjust based on content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.upload-button .ant-btn:hover {
+  background-color: white; /* White background on hover */
+  color: #1a1f36; /* Text color */
+  border: 2px solid #020727; /* Navy blue border on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+
+.upload-button .ant-btn:active {
+  transform: translateY(1px); /* Slight press effect */
+}
+
+/* Submit Button Styling */
+.submit-button {
+  width: 100%;
+  background-color: #020727; /* Navy blue */
+  border: none;
+  color: white;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, border 0.3s; /* Smooth transitions */
+}
+
+.submit-button:hover {
+  background-color: white; /* White background on hover */
+  color: #020727; /* Navy blue text */
+  border: 2px solid #020727; /* Navy blue border on hover */
+  transform: translateY(-1px); /* Slight lift effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.submit-button:disabled {
+  background-color: #f5f5f5; /* Light gray for disabled */
+  color: #020727;
+  border: 1px solid #d9d9d9;
+  cursor: not-allowed; /* Indicate disabled state */
+}
+
+/* Additional styling for file input */
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:focus {
+  border-color: #020727;
+  outline: none;
+}
